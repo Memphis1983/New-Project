@@ -1,0 +1,49 @@
+/* __________________________________Google Fonts_________________________________________ */
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Molle:ital@1&display=swap");
+
+/* ------------------------------CSS RESET------------------------ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* __________________________________MAIN______________________________                                    */
+
+body {
+  background-color: #000;
+  max-width: 100%;
+}
+
+/* _____________________________________HEADING____________________________ */
+
+.title {
+  font-family: "Molle", cursive;
+  max-width: 30rem;
+  margin: 2rem auto 0 auto;
+}               
+                
+.title > h1 {   
+  color: gold;  
+  font-size: 2.5rem;
+}               
+/* ________________________________________CONTAINER__________________________*/
+                
+.container {    
+  max-width: 60`rem;
+  height: auto; 
+  margin: 2rem; 
+  padding: 2rem;
+}               
+                
+.container .item {
+  width: 300px; 
+  height: 300px;
+  margin: 2rem; 
+  padding: 1.5rem;
+}               
+                
+img {           
+  width: 20%;   
+}               
+                
